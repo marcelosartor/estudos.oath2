@@ -1,4 +1,4 @@
-package br.com.msartor.h2.model;
+package br.com.msartor.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

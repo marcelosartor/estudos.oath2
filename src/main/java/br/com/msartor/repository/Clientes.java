@@ -1,8 +1,8 @@
-package br.com.msartor.h2.repository;
+package br.com.msartor.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import br.com.msartor.h2.model.Cliente;
+import br.com.msartor.model.Cliente;
 
 public interface Clientes extends JpaRepository<Cliente, Long> {
 

@@ -1,4 +1,4 @@
-package br.com.msartor.h2.resourse;
+package br.com.msartor.resourse;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.msartor.h2.model.Cliente;
-import br.com.msartor.h2.repository.Clientes;
+import br.com.msartor.model.Cliente;
+import br.com.msartor.repository.Clientes;
 
 @RestController
 @RequestMapping("/clientes")
